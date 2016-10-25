@@ -14,6 +14,7 @@
 		5E67CF3F1DBF515C0045A957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E67CF3D1DBF515C0045A957 /* LaunchScreen.storyboard */; };
 		5E67CF4A1DBF515D0045A957 /* SwiftTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67CF491DBF515D0045A957 /* SwiftTryTests.swift */; };
 		5E67CF551DBF515D0045A957 /* SwiftTryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67CF541DBF515D0045A957 /* SwiftTryUITests.swift */; };
+		5E67CF631DBF52B30045A957 /* SAPNotificationRepeatInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E67CF621DBF52B30045A957 /* SAPNotificationRepeatInterval.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5E67CF501DBF515D0045A957 /* SwiftTryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E67CF541DBF515D0045A957 /* SwiftTryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTryUITests.swift; sourceTree = "<group>"; };
 		5E67CF561DBF515D0045A957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E67CF621DBF52B30045A957 /* SAPNotificationRepeatInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPNotificationRepeatInterval.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5E67CF3B1DBF515C0045A957 /* Assets.xcassets */,
 				5E67CF3D1DBF515C0045A957 /* LaunchScreen.storyboard */,
 				5E67CF401DBF515C0045A957 /* Info.plist */,
+				5E67CF621DBF52B30045A957 /* SAPNotificationRepeatInterval.swift */,
 			);
 			path = SwiftTry;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				5E67CF371DBF515C0045A957 /* ViewController.swift in Sources */,
 				5E67CF351DBF515C0045A957 /* AppDelegate.swift in Sources */,
+				5E67CF631DBF52B30045A957 /* SAPNotificationRepeatInterval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				5E67CF5B1DBF515D0045A957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E67CF5C1DBF515D0045A957 /* Build configuration list for PBXNativeTarget "SwiftTryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				5E67CF5E1DBF515D0045A957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E67CF5F1DBF515D0045A957 /* Build configuration list for PBXNativeTarget "SwiftTryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				5E67CF611DBF515D0045A957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

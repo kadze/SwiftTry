@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var repeatInterval : SAPNotifictionRepeatInterval = .none
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +21,24 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    // MARK: - Actions
+    
+    @IBAction func onIntervalChange(sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            repeatInterval = .none
+        case 1:
+            repeatInterval = .minute
+        case 2:
+            repeatInterval = .hour
+        case 3:
+            repeatInterval = .day
+        case 4:
+            repeatInterval = .week
+        default :
+            repeatInterval = .none
+        }
+    }
 }
 
