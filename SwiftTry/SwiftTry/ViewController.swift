@@ -25,18 +25,9 @@ class ViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func onIntervalChange(sender: UISegmentedControl) {
-        switch sender.selectedSegmentIndex {
-        case 0:
-            repeatInterval = .none
-        case 1:
-            repeatInterval = .minute
-        case 2:
-            repeatInterval = .hour
-        case 3:
-            repeatInterval = .day
-        case 4:
-            repeatInterval = .week
-        default :
+        if let interval = SAPNotifictionRepeatInterval(rawValue:sender.selectedSegmentIndex) {
+            repeatInterval = interval
+        } else {
             repeatInterval = .none
         }
     }
