@@ -28,7 +28,7 @@
                                     <segment title="W"/>
                                 </segments>
                                 <connections>
-                                    <action selector="onIntervalChangeWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="07L-4m-aa5"/>
+                                    <action selector="onIntervalChangeWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="mhx-7x-aSc"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>

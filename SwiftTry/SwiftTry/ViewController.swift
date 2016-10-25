@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func onIntervalChange(sender: UISegmentedControl) {
-        if let interval = SAPNotifictionRepeatInterval(rawValue:sender.selectedSegmentIndex) {
+        if let interval = SAPNotifictionRepeatInterval(index:sender.selectedSegmentIndex) {
             repeatInterval = interval
         } else {
             repeatInterval = .none
